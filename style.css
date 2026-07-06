@@ -10,6 +10,7 @@ html, body {
   margin: 0 1em;
 }
 body {
+  background: none;
   display: block;
   margin: calc(2.5em + 4px) 0;
 }
