@@ -13,6 +13,13 @@ body {
   margin: 0;
   padding: 0.5em;
 }
+main {
+  background: #000a;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  color: #fff;
+}
 a {
   color: #fff;
   text-decoration: underline;
