@@ -31,22 +31,23 @@ a {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
-  background: linear-gradient(to right, #365781, #126d8c);
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
-nav ul {
+nav > ul {
   display: flex;
+  flex-direction: row;
+  justify-content: left;
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav > ul > li {
+  display: block;
   margin: 0;
   padding: 0;
-  gap: 1em;
-}
-nav li {
-  display: flex;
-  gap: 1em;
-  list-style: none;
+  height: auto;
 }
 
 nav > ul > li > a, nav > ul > li > span {
