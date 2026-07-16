@@ -10,7 +10,7 @@ html {
   height: 100vh;
 }
 body {
-  margin: calc(2.5em + 4px) 0;
+  margin: 2.5em 0;
   padding: 0.5em;
 }
 main {
