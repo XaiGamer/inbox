@@ -20,22 +20,6 @@ main {
   margin: 0;
   color: #fff;
 }
-a {
-  color: #fff;
-  text-decoration: underline;
-  &:hover, &:focus {
-    color: #3af;
-  }
-  &:visited {
-    color: #83f;
-  }
-  &:visited:hover, &:visited:focus {
-    color: #cff
-  }
-  &:active, &:visited:active {
-    color: #55f;
-  }
-}
 
 nav {
   position: absolute;
@@ -80,6 +64,23 @@ nav > ul > li > a, nav > ul > li > span {
     color: #000;
     box-shadow: none;
     transform: translateY(4px);
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+  &:hover, &:focus {
+    color: #3af;
+  }
+  &:visited {
+    color: #83f;
+  }
+  &:visited:hover, &:visited:focus {
+    color: #cff
+  }
+  &:active, &:visited:active {
+    color: #55f;
   }
 }
 
