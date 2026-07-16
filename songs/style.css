@@ -17,7 +17,7 @@ main {
   background: #000a;
   flex-direction: column;
   justify-content: center;
-  padding: 5em;
+  margin: calc(2.5em + 4px) 0;
   color: #fff;
 }
 a {
